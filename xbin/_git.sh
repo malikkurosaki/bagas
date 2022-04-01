@@ -14,15 +14,16 @@ _git() {
     rebase,         untuk melakukan rebase
     fetch,          untuk melakukan fetch
     reset,          untuk melakukan reset
-
-    "
+    " | sed -e 's/^[ \t]*//'
     _yellow "q | Quit | CTRL+C untuk keluar"
     _cyan "Pilih Menu Git"
     read -p ": " menu
     while true; do
         case $menu in
-        g | git)
-            _git
+        p | push)
+            git add 
+            git commit -m "$(date)"
+            git push
             ;;
         q | quit)
             _cyan "bye ..."
