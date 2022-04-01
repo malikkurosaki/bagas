@@ -1,7 +1,7 @@
 _menu() {
     _green "
     Menu:
-
+    g, git,        untuk mengakses git
     "
     _yellow "q | Quit | CTRL+C untuk keluar"
     _cyan "Pilih Menu"
@@ -12,6 +12,7 @@ _menu() {
             _git
             ;;
         q | quit)
+            _cyan "bye ..."
             exit 0
             ;;
         *)

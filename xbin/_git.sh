@@ -1,4 +1,5 @@
 _git() {
+    pwd
     _green "
     Git:
     Perintah pada git 
@@ -13,7 +14,7 @@ _git() {
     rebase,         untuk melakukan rebase
     fetch,          untuk melakukan fetch
     reset,          untuk melakukan reset
-    
+
     "
     _yellow "q | Quit | CTRL+C untuk keluar"
     _cyan "Pilih Menu Git"
@@ -24,6 +25,7 @@ _git() {
             _git
             ;;
         q | quit)
+            _cyan "bye ..."
             exit 0
             ;;
         *)
