@@ -21,9 +21,10 @@ _git() {
     while true; do
         case $menu in
         p | push)
-            git add 
+            git add
             git commit -m "$(date)"
             git push
+            exit 0
             ;;
         q | quit)
             _cyan "bye ..."
