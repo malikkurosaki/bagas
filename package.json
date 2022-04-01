@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/malikkurosaki/bagas/issues"
   },
-  "homepage": "https://github.com/malikkurosaki/bagas#readme"
+  "homepage": "https://github.com/malikkurosaki/bagas#readme",
+  "dependencies": {
+    "g": "^2.0.1"
+  }
 }

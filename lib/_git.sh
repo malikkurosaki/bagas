@@ -1,7 +1,5 @@
 _git() {
-    pwd
-    _green "
-    Git:
+    help="
     Perintah pada git 
     push,           untuk mengirimkan data ke remote
     pull,           untuk menerima data dari remote
@@ -14,6 +12,11 @@ _git() {
     rebase,         untuk melakukan rebase
     fetch,          untuk melakukan fetch
     reset,          untuk melakukan reset
+    " | sed 's/^[ \t]//g'
+    
+    _green "
+    Git:
+   
     " | sed -e 's/^[ \t]*//'
     _yellow "q | Quit | CTRL+C untuk keluar"
     _cyan "Pilih Menu Git"
