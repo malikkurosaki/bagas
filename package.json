@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "bagas": "./https://raw.githubusercontent.com/malikkurosaki/bagas/main/lib/autoload.sh"
+    "bagas2": "./https://raw.githubusercontent.com/malikkurosaki/bagas/main/bin/bagas.sh"
   },
   "repository": {
     "type": "git",
