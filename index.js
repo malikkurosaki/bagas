@@ -1,1 +1,2 @@
-const apa = require("https://raw.githubusercontent.com/malikkurosaki/bagas/main/lib/autoload.sh")
+const color = require('../node_modules/colors');
+console.log('Hello World'.rainbow);

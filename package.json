@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/malikkurosaki/bagas#readme",
   "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0",
     "g": "^2.0.1"
   }
 }
