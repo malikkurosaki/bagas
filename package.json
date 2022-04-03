@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "bagas": "./bin/bagas.sh"
+    "bagas": "./bagas.sh"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,11 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "colors": "^1.4.0",
-    "g": "^2.0.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "g": "^2.0.1",
+    "node-fetch": "^3.2.3",
+    "node-storage": "^0.0.9"
   }
 }
