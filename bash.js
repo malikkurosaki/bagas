@@ -16,8 +16,11 @@ async function Exec(args)  {
                 stdout,
                 stderr
             });
+            
         });
+
     });
+    
 }
 
 module.exports = {Exec}
